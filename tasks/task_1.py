@@ -8,7 +8,7 @@ from typing import Tuple
 
 # Реализовать функции сложения, вычитания и умножения двух чисел.
 def add_mul(first: float, second: float) -> Tuple[float, float, float]:
-    return ..., ..., ...
+    return first + second, first - second, first * second
 
 
 # Реализовать функции деления, деления нацело и нахождения остатка от деления.
